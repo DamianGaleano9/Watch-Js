@@ -22,6 +22,13 @@
             
         var week = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
         pDayWeek.textContent = week[dayWeek];
+
+        pDay.textContent = day;
+
+        var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'December' ];
+        pMonth.textContent = months[month];
+
+        pYear.textContent = year;
     };
 
     updateHour();
